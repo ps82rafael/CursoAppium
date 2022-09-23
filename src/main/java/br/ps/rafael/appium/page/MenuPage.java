@@ -11,7 +11,7 @@ import br.ps.rafael.appium.core.BasePage;
 public class MenuPage extends BasePage {
 
 	public void acessarFormulario() {
-		clicarPorTexto("Formul·rio");
+		clicarPorTexto("Formul√°rio");
 
 	}
 
@@ -40,13 +40,13 @@ public class MenuPage extends BasePage {
 		clicarPorTexto("Swipe");
 	}
 	
-	public void acessarSeuBarrigaHÌbrido() {
-		clicarPorTexto("SeuBarriga HÌbrido");
+	public void acessarSeuBarrigaHibrido() {
+		clicarPorTexto("SeuBarriga Hibrido");
 	}
 
 	public void acessarSwipeList() {
 		WebDriverWait wait = new WebDriverWait(getDriver(), 10);
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='Formul·rio']")));
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='Formul√°rio']")));
 		//menu.scroll(0.9, 0.1);
 		scrollDown();
 		clicarPorTexto("Swipe List");
@@ -54,7 +54,7 @@ public class MenuPage extends BasePage {
 
 	public void acessarDragAndDrop() {
 		WebDriverWait wait = new WebDriverWait(getDriver(), 10);
-		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='Formul·rio']")));
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='Formul√°rio']")));
 		//menu.scroll(0.9, 0.1);
 		scrollDown();
 		clicarPorTexto("Drag and drop");

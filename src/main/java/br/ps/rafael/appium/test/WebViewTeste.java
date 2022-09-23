@@ -18,7 +18,7 @@ public class WebViewTeste extends BaseTest{
 	@Test
 	public void devefazerLogin() {
 		//acessar o menu 
-		menu.acessarSeuBarrigaHíbrido();
+		menu.acessarSeuBarrigaHibrido();
 		esperar(3000);
 		page.entrarContextoWeb();
 		

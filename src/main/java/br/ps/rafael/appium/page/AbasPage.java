@@ -5,11 +5,11 @@ import br.ps.rafael.appium.core.BasePage;
 public class AbasPage extends BasePage {
 
 	public boolean isAba1() {
-		return existeElemetoPorTexto("Este é o conteúdo da Aba 1");
+		return existeElemetoPorTexto("Este Ã© o conteÃºdo da Aba 1");
 	}
 	
 	public boolean isAba2() {
-		return existeElemetoPorTexto("Este é o conteúdo da Aba 2");
+		return existeElemetoPorTexto("Este Ã© o conteÃºdo da Aba 2");
 	}
 	
 	public void selecionarAba2() {
