@@ -124,7 +124,7 @@ public class FormularioTeste extends BaseTest{
 		
 		//obter o valor
 		Assert.assertTrue(page.existeElemetoPorTexto("Slider: 65"));
-		
+	
 		
 	}
 	
